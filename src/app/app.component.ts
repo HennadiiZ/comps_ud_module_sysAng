@@ -21,4 +21,6 @@ export class AppComponent {
   // collections
   // views
   // mods 
+
+  //Navigating with RouterLink
 }
