@@ -16,4 +16,9 @@ export class AppComponent {
   // ng g c collections/CollectionsHome
   // ng g c views/viewsHome
   // ng g c mods/modsHome
+
+  // elements
+  // collections
+  // views
+  // mods 
 }
