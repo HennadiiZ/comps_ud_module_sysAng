@@ -13,4 +13,7 @@ export class AppComponent {
   // ng g m Mods (UI modules, not angular modules) --routing
 
   // ng g c elements/ElementsHome
+  // ng g c collections/CollectionsHome
+  // ng g c views/viewsHome
+  // ng g c mods/modsHome
 }
