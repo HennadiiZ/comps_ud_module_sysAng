@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'comps_ud_module_sys';
+  
+  // ng g m Elements --routing
+  // ng g m Collections --routing
+  // ng g m Views --routing
+  // ng g m Mods (UI modules, not angular modules) --routing
 }
