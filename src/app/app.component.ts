@@ -34,5 +34,6 @@ export class AppComponent {
   // Shared Module (Divider Component)
 
   // Grabbing Content with NgContent <ng-content></ng-content>
+  // 116. Creating a Segment Component
   
 }
