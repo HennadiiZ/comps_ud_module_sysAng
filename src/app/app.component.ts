@@ -26,4 +26,6 @@ export class AppComponent {
 
   // Lazy vs Eager Loading
   // Implementing Lazy Loading (for elements component)
+  // git commit -m "Implementing Lazy Loading for orher components (collections , views , mods ) "
+  // Creating a Placeholder Component
 }
