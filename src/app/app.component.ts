@@ -35,5 +35,7 @@ export class AppComponent {
 
   // Grabbing Content with NgContent <ng-content></ng-content>
   // 116. Creating a Segment Component
-  
+  // 117. NgContent with Selects
+      // we can use <ng-content> only once per component OR use it with select="" many times
+
 }

@@ -1,7 +1,18 @@
+<!-- 
+some of my playing changes
 <div class="ui placeholder segment">
     <div class="ui icon header">
       <i class="pdf file outline icon"></i>
-      No documents are listed for this customer.
+      {{ text }}
     </div>
-    <div class="ui primary button">Add Document</div>
+    <div class="ui primary button">{{ buttonName }}</div>
+</div> 
+-->
+
+
+<div class="ui placeholder segment">
+    <div class="ui icon header">
+        <ng-content select="header"></ng-content>
+    </div>
+    <ng-content></ng-content>
 </div>

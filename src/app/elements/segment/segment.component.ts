@@ -7,9 +7,13 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SegmentComponent implements OnInit {
 
-  @Input() image!: string;
-  @Input() text!: string;
-  @Input() buttonName!: string;
+  // @Input() icon!: string;
+  // @Input() text!: string;
+  // @Input() buttonName!: string;
+
+  // @Input() icon = "pdf file outline icon";
+  // @Input() text = "No documents are listed for this customer.";
+  // @Input() buttonName = "Add Document";
 
   constructor() { }
 
