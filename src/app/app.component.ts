@@ -23,4 +23,7 @@ export class AppComponent {
   // mods 
 
   //Navigating with RouterLink
+
+  // Lazy vs Eager Loading
+  // Implementing Lazy Loading (for elements component)
 }
