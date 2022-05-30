@@ -44,6 +44,6 @@ export class AppComponent {
 
   // 120. Generating and Displaying the Table
   // Communicating Down Table Data + Assembling the Table (121. + 122.)
-  //
+  // Passing Down Class Names . VERY INTERESTING!!!
 
 }
