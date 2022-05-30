@@ -28,4 +28,9 @@ export class AppComponent {
   // Implementing Lazy Loading (for elements component)
   // git commit -m "Implementing Lazy Loading for orher components (collections , views , mods ) "
   // Creating a Placeholder Component
+
+  //  113. + 114. Widget Modules +  Implementing a Titled Divider
+  //  Widget Module - defines reusable components that will be used in multiple other modules
+  // Shared Module (Divider Component)
+  
 }
