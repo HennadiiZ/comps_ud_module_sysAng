@@ -32,5 +32,7 @@ export class AppComponent {
   //  113. + 114. Widget Modules +  Implementing a Titled Divider
   //  Widget Module - defines reusable components that will be used in multiple other modules
   // Shared Module (Divider Component)
+
+  // Grabbing Content with NgContent <ng-content></ng-content>
   
 }
