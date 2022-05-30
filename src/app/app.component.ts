@@ -38,4 +38,5 @@ export class AppComponent {
   // 117. NgContent with Selects
       // we can use <ng-content> only once per component OR use it with select="" many times
 
+  // 118. Hiding Empty Elements
 }
