@@ -43,6 +43,7 @@ export class AppComponent {
   // 119. Building a Reusable Table + 120. Generating and Displaying the Table
 
   // 120. Generating and Displaying the Table
-
+  // Communicating Down Table Data + Assembling the Table (121. + 122.)
+  //
 
 }
