@@ -39,4 +39,10 @@ export class AppComponent {
       // we can use <ng-content> only once per component OR use it with select="" many times
 
   // 118. Hiding Empty Elements
+
+  // 119. Building a Reusable Table + 120. Generating and Displaying the Table
+
+  // 120. Generating and Displaying the Table
+
+
 }
