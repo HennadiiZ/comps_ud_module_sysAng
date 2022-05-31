@@ -62,5 +62,8 @@ export class AppComponent {
   // 133. Exercise Solution
 
   // 134. Displaying a List of Statistics
+  // 135. Displaying a List of Items
+
+  // ItemList component was added
 
 }
