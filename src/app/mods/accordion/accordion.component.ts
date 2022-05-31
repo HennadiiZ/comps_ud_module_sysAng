@@ -11,6 +11,7 @@ export class AccordionComponent implements OnInit {
   // @Input() content!: string;
 
   @Input() items!: Array<any>;
+  openItemIndex = 0;
 
 
   constructor() { }
