@@ -77,5 +77,6 @@ export class AppComponent {
   // 143. Opening the Modal
   // 144. Closing the Modal
   // 145. Stopping Event Bubbling
+  // 146. Making the Modal Reusable
 
 }
