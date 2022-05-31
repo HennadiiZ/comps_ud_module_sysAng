@@ -46,4 +46,9 @@ export class AppComponent {
   // Communicating Down Table Data + Assembling the Table (121. + 122.)
   // Passing Down Class Names . VERY INTERESTING!!!
 
+
+  // ===== // Section 10: Advanced Component Routing
+  // creating Biography + Companies + Partners components
+  // Tab Based Navigation +  Adding Child Navigation Routes (124. + 125.)
+
 }
