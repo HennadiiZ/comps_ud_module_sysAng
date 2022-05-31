@@ -1,1 +1,37 @@
-<p>statistics works!</p>
+<div class="ui statistics">
+    <div class="statistic" *ngFor="let stat of stats">
+      <div class="value">
+        {{ stat.value }}
+      </div>
+      <div class="label">
+        {{ stat.label }}
+      </div>
+    </div>
+</div>
+
+<!-- <div class="ui statistics">
+    <div class="statistic">
+      <div class="value">
+        22
+      </div>
+      <div class="label">
+        Faves
+      </div>
+    </div>
+    <div class="statistic">
+      <div class="value">
+        31,200
+      </div>
+      <div class="label">
+        Views
+      </div>
+    </div>
+    <div class="statistic">
+      <div class="value">
+        22
+      </div>
+      <div class="label">
+        Members
+      </div>
+    </div>
+</div> -->

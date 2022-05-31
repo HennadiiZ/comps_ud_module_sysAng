@@ -61,5 +61,6 @@ export class AppComponent {
   // 132. Views Module Exercise
   // 133. Exercise Solution
 
+  // 134. Displaying a List of Statistics
 
 }
