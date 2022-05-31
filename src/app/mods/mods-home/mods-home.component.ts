@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModsHomeComponent implements OnInit {
 
+  modalOpen = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClick(){
+    // this.modalOpen = true;
+    this.modalOpen = !this.modalOpen;
   }
 
 }

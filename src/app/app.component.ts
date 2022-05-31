@@ -72,4 +72,9 @@ export class AppComponent {
   // 138. More Basic Modal Setup
   // 139. Natural Issues with Modal Windows
   // 140. Solving the Modal Issue
+  // 141. Lifecycle Hooks
+  // 142. Hiding the Modal with NgOnDestroy
+  // 143. Opening the Modal
+  // 144. Closing the Modal
+
 }

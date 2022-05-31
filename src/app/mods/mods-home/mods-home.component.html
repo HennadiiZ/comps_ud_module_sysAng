@@ -2,4 +2,9 @@
     Modal Component:
 </app-divider>
 
-<app-modal></app-modal>
+<button class="ui button" (click)="onClick()">Open Modal.</button>
+
+<app-modal 
+(close)="onClick()"
+*ngIf="modalOpen">
+</app-modal>
