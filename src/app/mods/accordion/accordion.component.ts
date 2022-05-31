@@ -19,4 +19,13 @@ export class AccordionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onChangeAccordion(i: number){
+    
+    if(i === this.openItemIndex){
+      this.openItemIndex = -1;
+    }else{
+      this.openItemIndex = i;
+    }
+  }
+
 }

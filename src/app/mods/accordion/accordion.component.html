@@ -1,6 +1,6 @@
 <div class="ui styled accordion">
     <ng-container *ngFor="let item of items; let i = index">
-        <div class="title" (click)="openItemIndex = i" >
+        <div class="title" [ngClass]="{ active: i == openItemIndex }" (click)="onChangeAccordion(i)" >
             <i class="dropdown icon"></i>
                 {{ item.title }}
         </div>
