@@ -66,4 +66,10 @@ export class AppComponent {
 
   // ItemList component was added
 
+  // ===== // Section 11: Advanced Component Reusability + Hooks
+  // 136. The Mods Module
+  // 137. Modal Window Setup
+  // 138. More Basic Modal Setup
+  // 139. Natural Issues with Modal Windows
+  // 140. Solving the Modal Issue
 }
