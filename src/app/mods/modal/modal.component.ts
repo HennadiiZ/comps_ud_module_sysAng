@@ -22,10 +22,8 @@ export class ModalComponent implements OnInit, OnDestroy {
     this.elementRef.nativeElement.remove();
   }
 
-  closeModal(event: any){
+  closeModal(){
     this.close.emit();
-    // this.elementRef.nativeElement.remove();
-    // event.stopPropagation();
   }
 
 }

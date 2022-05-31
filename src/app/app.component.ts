@@ -76,5 +76,6 @@ export class AppComponent {
   // 142. Hiding the Modal with NgOnDestroy
   // 143. Opening the Modal
   // 144. Closing the Modal
+  // 145. Stopping Event Bubbling
 
 }

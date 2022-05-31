@@ -1,7 +1,7 @@
 
-<div class="ui dimmer visible active" (click)="closeModal($event)">
-  <div class="ui modal visible active">
-    <i class="close icon"(click)="closeModal($event)" ></i>
+<div class="ui dimmer visible active" (click)="closeModal()">
+  <div (click)="$event.stopPropagation()" class="ui modal visible active">
+    <i class="close icon"(click)="closeModal()" ></i>
     <div class="header">
       Profile Picture
     </div>
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="actions" >
-        <button class="ui button" (click)="closeModal($event)" >OK</button>
+        <button class="ui button" (click)="closeModal()" >OK</button>
     </div>
   </div>
 </div>
