@@ -1,13 +1,15 @@
 <div class="ui styled accordion">
-    <div class="title">
-      <i class="dropdown icon"></i>
-      {{ title }}
-    </div>
-    <div class="content active">
-      <p class="transition active">
-            {{ content }}
-        </p>
-    </div>
+    <ng-container *ngFor="let item of items">
+        <div class="title">
+            <i class="dropdown icon"></i>
+                {{ item.title }}
+        </div>
+        <div class="content active">
+            <p class="transition active">
+                {{ item.content }}
+            </p>
+        </div>
+    </ng-container>
 </div>
 
 

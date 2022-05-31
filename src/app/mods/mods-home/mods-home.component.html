@@ -22,8 +22,4 @@ THIS IS SUPER REUSABLE MODAL!!!
     Accordion Component:
 </app-divider>
 
-<app-accordion 
-*ngFor="let item of items" 
-[title]="item.title" 
-[content]="item.content">
-</app-accordion>
+<app-accordion [items]="items"></app-accordion>
