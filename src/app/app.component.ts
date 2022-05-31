@@ -58,5 +58,8 @@ export class AppComponent {
 
   // 131. A Reusable Tabs Component
 
+  // 132. Views Module Exercise
+  // 133. Exercise Solution
+
 
 }
