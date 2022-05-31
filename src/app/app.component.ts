@@ -51,4 +51,9 @@ export class AppComponent {
   // creating Biography + Companies + Partners components
   // Tab Based Navigation +  Adding Child Navigation Routes (124. + 125.)
 
+  // 127. RouterLink Configuration
+  // 128. Relative RouterLink References
+  // 129. Alternate RouterLink Syntax
+  // 130. Matching Exact Paths
+
 }
