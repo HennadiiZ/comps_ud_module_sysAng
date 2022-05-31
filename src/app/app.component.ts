@@ -56,4 +56,7 @@ export class AppComponent {
   // 129. Alternate RouterLink Syntax
   // 130. Matching Exact Paths
 
+  // 131. A Reusable Tabs Component
+
+
 }
