@@ -10,10 +10,20 @@
 <header>This is a Header.</header>
 THIS IS SUPER REUSABLE MODAL!!!
 <p>yeah!!!</p>
-<ng-container modalFooter> 
+<!-- <ng-container modalFooter> 
     <button class="ui button" (click)="onClick()">Close Me!</button>
-</ng-container>
+</ng-container> -->
 <!-- <div modalFooter> 
     <button class="ui button" (click)="onClick()">Close Me!</button>
 </div> -->
 </app-modal>
+
+<app-divider>
+    Accordion Component:
+</app-divider>
+
+<app-accordion 
+*ngFor="let item of items" 
+[title]="item.title" 
+[content]="item.content">
+</app-accordion>

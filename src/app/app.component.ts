@@ -78,5 +78,7 @@ export class AppComponent {
   // 144. Closing the Modal
   // 145. Stopping Event Bubbling
   // 146. Making the Modal Reusable
-
+  // 147. Building an Accordion
+  // 148. Listing Accordion Elements
+  // 
 }
