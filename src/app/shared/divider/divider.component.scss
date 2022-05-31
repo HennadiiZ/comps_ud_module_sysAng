@@ -1,0 +1,12 @@
+// :host{
+//     display: block;
+//     margin-top: 20px;
+// }
+
+// :host - we dont use because we don't want to add margin to the first component
+// we use instead:
+
+:host:not(:first-of-type){
+    display: block;
+    margin-top: 20px;
+}
